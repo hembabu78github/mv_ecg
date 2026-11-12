@@ -1,0 +1,8 @@
+split=test n_train=9287 n_eval=1168 pos=256 patients=1057 B=1000
+  E-LR done in 85s  AUROC 0.9499
+  E-HGB done in 160s  AUROC 0.9704
+  L-LR done in 71s  AUROC 0.9542
+  L-HGB done in 164s  AUROC 0.9717
+  S-HGB done in 89s  AUROC 0.9727
+done in 580s
+FIN

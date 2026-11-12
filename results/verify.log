@@ -1,0 +1,54 @@
+PASS AUROC E-LR 0.9499
+PASS AUROC E-HGB 0.9704
+PASS AUROC L-LR 0.9542
+PASS AUROC L-HGB 0.9717
+PASS AUROC S-HGB 0.9727
+PASS E-LR TERRITORY_MASK applicable count plausible 205
+PASS E-LR TERRITORY_CONTROL applicable count plausible 205
+PASS E-HGB TERRITORY_MASK applicable count plausible 205
+PASS E-HGB TERRITORY_CONTROL applicable count plausible 205
+PASS L-LR TERRITORY_MASK applicable count plausible 205
+PASS L-LR TERRITORY_CONTROL applicable count plausible 205
+PASS L-HGB TERRITORY_MASK applicable count plausible 205
+PASS L-HGB TERRITORY_CONTROL applicable count plausible 205
+PASS S-HGB TERRITORY_MASK applicable count plausible 205
+PASS S-HGB TERRITORY_CONTROL applicable count plausible 205
+PASS violation rates (all non-territory ops) match brute force (float32 tolerance) max diff 5.62e-08
+PASS E-LR UNIT_AMP_uV exactly invariant under correct harmonizer max 3.3e-16
+PASS E-LR UNIT_TIME_s exactly invariant under correct harmonizer max 7.2e-16
+PASS E-LR UNIT_ANTHRO_in_lb exactly invariant under correct harmonizer max 1.1e-16
+PASS E-LR probabilities in [0,1] and finite 
+PASS E-HGB UNIT_AMP_uV invariant up to float round-off (<=0.5% of records move >0.05) 1 records
+PASS E-HGB UNIT_TIME_s invariant up to float round-off (<=0.5% of records move >0.05) 1 records
+PASS E-HGB UNIT_ANTHRO_in_lb invariant up to float round-off (<=0.5% of records move >0.05) 0 records
+PASS E-HGB probabilities in [0,1] and finite 
+PASS L-LR UNIT_AMP_uV exactly invariant under correct harmonizer max 2.2e-16
+PASS L-LR UNIT_TIME_s exactly invariant under correct harmonizer max 3.3e-16
+PASS L-LR UNIT_ANTHRO_in_lb exactly invariant under correct harmonizer max 2.2e-16
+PASS L-LR probabilities in [0,1] and finite 
+PASS L-HGB UNIT_AMP_uV invariant up to float round-off (<=0.5% of records move >0.05) 0 records
+PASS L-HGB UNIT_TIME_s invariant up to float round-off (<=0.5% of records move >0.05) 0 records
+PASS L-HGB UNIT_ANTHRO_in_lb invariant up to float round-off (<=0.5% of records move >0.05) 0 records
+PASS L-HGB probabilities in [0,1] and finite 
+PASS S-HGB UNIT_AMP_uV invariant up to float round-off (<=0.5% of records move >0.05) 2 records
+PASS S-HGB UNIT_TIME_s invariant up to float round-off (<=0.5% of records move >0.05) 3 records
+PASS S-HGB UNIT_ANTHRO_in_lb invariant up to float round-off (<=0.5% of records move >0.05) 0 records
+PASS S-HGB probabilities in [0,1] and finite 
+PASS accuracy-only detection reproduced by independent bootstrap 0 non-borderline disagreements
+PASS E-LR F1_AMP_UNIT_IGNORED silent on canonical-unit data 
+PASS E-LR F2_TIME_UNIT_IGNORED silent on canonical-unit data 
+PASS E-LR F3_ANTHRO_UNIT_IGNORED silent on canonical-unit data 
+PASS E-HGB F1_AMP_UNIT_IGNORED silent on canonical-unit data 
+PASS E-HGB F2_TIME_UNIT_IGNORED silent on canonical-unit data 
+PASS E-HGB F3_ANTHRO_UNIT_IGNORED silent on canonical-unit data 
+PASS L-LR F1_AMP_UNIT_IGNORED silent on canonical-unit data 
+PASS L-LR F2_TIME_UNIT_IGNORED silent on canonical-unit data 
+PASS L-LR F3_ANTHRO_UNIT_IGNORED silent on canonical-unit data 
+PASS L-HGB F1_AMP_UNIT_IGNORED silent on canonical-unit data 
+PASS L-HGB F2_TIME_UNIT_IGNORED silent on canonical-unit data 
+PASS L-HGB F3_ANTHRO_UNIT_IGNORED silent on canonical-unit data 
+PASS S-HGB F1_AMP_UNIT_IGNORED silent on canonical-unit data 
+PASS S-HGB F2_TIME_UNIT_IGNORED silent on canonical-unit data 
+PASS S-HGB F3_ANTHRO_UNIT_IGNORED silent on canonical-unit data 
+
+ALL CHECKS PASSED

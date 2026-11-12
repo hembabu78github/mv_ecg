@@ -1,0 +1,20 @@
+[(0, 'UNIT_AMP_uV'), (1, 'UNIT_TIME_s'), (2, 'UNIT_ANTHRO_in_lb'), (3, 'NOISE_x0.5'), (4, 'NOISE_x1'), (5, 'NOISE_x2'), (6, 'AGE_PLUS_1Y'), (7, 'MASK_VIEW_12sl'), (8, 'MASK_VIEW_ecgdeli'), (9, 'MASK_VIEW_unig'), (10, 'MASK_LEAD_I'), (11, 'MASK_LEAD_II'), (12, 'MASK_LEAD_III'), (13, 'MASK_LEAD_aVR'), (14, 'MASK_LEAD_aVL'), (15, 'MASK_LEAD_aVF'), (16, 'MASK_LEAD_V1'), (17, 'MASK_LEAD_V2'), (18, 'MASK_LEAD_V3'), (19, 'MASK_LEAD_V4'), (20, 'MASK_LEAD_V5'), (21, 'MASK_LEAD_V6'), (22, 'TERRITORY_MASK'), (23, 'TERRITORY_CONTROL'), (24, 'ST_ELEV_+0.15mV_2LEADS')]
+all23 relations used: 23
+MR detection by group (mean over scenario-model cells):
+ group
+active     0.728
+dev        0.441
+heldout    0.588
+joint      1.000
+Name: det, dtype: float64
+MR detected pairs (det>=0.5) among F1-F9 x 5 models: 28 of 45
+MR clean false-alarm rate:
+ pop
+age<50          0.000
+age>=65         0.976
+all             0.056
+device_other    0.384
+device_top      0.000
+female          0.220
+male            0.020
+Name: rate, dtype: float64

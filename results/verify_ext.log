@@ -1,0 +1,54 @@
+PASS AUROC/Brier E-LR clean 
+PASS AUROC/Brier E-LR SHIFTCOL_12sl 
+PASS AUROC/Brier E-LR GAIN_0.5 
+PASS AUROC/Brier E-LR ACT_F2_TIME 
+PASS AUROC/Brier E-HGB clean 
+PASS AUROC/Brier E-HGB SHIFTCOL_12sl 
+PASS AUROC/Brier E-HGB GAIN_0.5 
+PASS AUROC/Brier E-HGB ACT_F2_TIME 
+PASS AUROC/Brier L-LR clean 
+PASS AUROC/Brier L-LR SHIFTCOL_12sl 
+PASS AUROC/Brier L-LR GAIN_0.5 
+PASS AUROC/Brier L-LR ACT_F2_TIME 
+PASS AUROC/Brier L-HGB clean 
+PASS AUROC/Brier L-HGB SHIFTCOL_12sl 
+PASS AUROC/Brier L-HGB GAIN_0.5 
+PASS AUROC/Brier L-HGB ACT_F2_TIME 
+PASS AUROC/Brier S-HGB clean 
+PASS AUROC/Brier S-HGB SHIFTCOL_12sl 
+PASS AUROC/Brier S-HGB GAIN_0.5 
+PASS AUROC/Brier S-HGB ACT_F2_TIME 
+PASS independent MR/ACC monitor detection rates agree with reported (|diff| <= 0.09) worst 0.042
+PASS E-LR F1_AMP_UNIT_IGNORED dormant 
+PASS E-LR F2_TIME_UNIT_IGNORED dormant 
+PASS E-LR F3_ANTHRO_UNIT_IGNORED dormant 
+PASS E-LR ALTUNITS_OK_AMP benign (<=0.5% of records move >0.05) 0 recs
+PASS E-LR ALTUNITS_OK_TIME benign (<=0.5% of records move >0.05) 0 recs
+PASS E-LR ALTUNITS_OK_ANTHRO benign (<=0.5% of records move >0.05) 0 recs
+PASS E-HGB F1_AMP_UNIT_IGNORED dormant 
+PASS E-HGB F2_TIME_UNIT_IGNORED dormant 
+PASS E-HGB F3_ANTHRO_UNIT_IGNORED dormant 
+PASS E-HGB ALTUNITS_OK_AMP benign (<=0.5% of records move >0.05) 1 recs
+PASS E-HGB ALTUNITS_OK_TIME benign (<=0.5% of records move >0.05) 1 recs
+PASS E-HGB ALTUNITS_OK_ANTHRO benign (<=0.5% of records move >0.05) 0 recs
+PASS L-LR F1_AMP_UNIT_IGNORED dormant 
+PASS L-LR F2_TIME_UNIT_IGNORED dormant 
+PASS L-LR F3_ANTHRO_UNIT_IGNORED dormant 
+PASS L-LR ALTUNITS_OK_AMP benign (<=0.5% of records move >0.05) 0 recs
+PASS L-LR ALTUNITS_OK_TIME benign (<=0.5% of records move >0.05) 0 recs
+PASS L-LR ALTUNITS_OK_ANTHRO benign (<=0.5% of records move >0.05) 0 recs
+PASS L-HGB F1_AMP_UNIT_IGNORED dormant 
+PASS L-HGB F2_TIME_UNIT_IGNORED dormant 
+PASS L-HGB F3_ANTHRO_UNIT_IGNORED dormant 
+PASS L-HGB ALTUNITS_OK_AMP benign (<=0.5% of records move >0.05) 0 recs
+PASS L-HGB ALTUNITS_OK_TIME benign (<=0.5% of records move >0.05) 0 recs
+PASS L-HGB ALTUNITS_OK_ANTHRO benign (<=0.5% of records move >0.05) 0 recs
+PASS S-HGB F1_AMP_UNIT_IGNORED dormant 
+PASS S-HGB F2_TIME_UNIT_IGNORED dormant 
+PASS S-HGB F3_ANTHRO_UNIT_IGNORED dormant 
+PASS S-HGB ALTUNITS_OK_AMP benign (<=0.5% of records move >0.05) 2 recs
+PASS S-HGB ALTUNITS_OK_TIME benign (<=0.5% of records move >0.05) 3 recs
+PASS S-HGB ALTUNITS_OK_ANTHRO benign (<=0.5% of records move >0.05) 0 recs
+
+ALL CHECKS PASSED
+exit 0

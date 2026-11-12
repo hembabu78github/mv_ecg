@@ -1,0 +1,37 @@
+id,item,verdict_or_rating,comment
+M1,Amplitude units,A,pure unit conversion
+M2,Time units,A,pure mathematical conversion
+M3,Height/weight units,A,pure conversion
+O1,Measurement noise x0.5/x1/x2,C,x0.5 and x1 within inter-algorithm variation; x2 (+-20 uV on ST) can cross diagnostic thresholds
+O2,Age +1 year,A,negligible; +5 years also acceptable
+C1,Loss of one measurement algorithm,A,similar risk expected if remaining algorithms accurate
+C2,Loss of one lead,C,depends on lead; see per-lead verdicts
+C3,Mask infarct territory,A,must not increase P; lead sets anatomically accurate
+C4,Mask unrelated leads,C,may remove reciprocal changes; should not drastically raise P
+C5,ST elevation +0.15 mV two contiguous leads,C,meets STEMI criteria in most leads; non-anatomic diffuse pattern could legitimately lower P
+lead_I,C2 per-lead,C,
+lead_II,C2 per-lead,R,
+lead_III,C2 per-lead,R,
+lead_aVR,C2 per-lead,A,
+lead_aVL,C2 per-lead,C,
+lead_aVF,C2 per-lead,R,
+lead_V1,C2 per-lead,C,
+lead_V2,C2 per-lead,R,
+lead_V3,C2 per-lead,R,
+lead_V4,C2 per-lead,R,
+lead_V5,C2 per-lead,C,
+lead_V6,C2 per-lead,C,
+F1,Amplitude wrong unit,4,
+F2,Duration wrong unit,3,
+F3,Height/weight units,5,
+F4,V1/V2 swapped,5,
+F5,Limb leads cyclically relabelled,4,
+F6,Missing values zero-filled,4,
+F7,Gain 20% low,2,
+F8,Sex code inverted,4,
+F9,One source not delivered,3,
+open_action,Preferred action on flagged input,"withhold result + human review (1st); show with warning (2nd); fall back to simpler model (last)",
+open_cost_ratio,Missed MI : false alarm,">=20:1",
+open_threshold,Action threshold on P(MI),0.10-0.15,
+open_additions,Suggested additional rules,"LBBB; ventricular-paced rhythm; LA/RA arm-electrode reversal; baseline wander/motion; pacing spikes",
+open_exclusions,Rules not to test,"unphysiological random noise on all leads simultaneously",
