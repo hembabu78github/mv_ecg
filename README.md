@@ -3,9 +3,9 @@
 Code, released results and tables for the manuscript "Metamorphic Assurance of Multi-View ECG Feature Pipelines:
 Silent Integration Faults, Monitoring Baselines and Fusion Fragility" (PTB-XL+, myocardial infarction vs normal).
 
-- Repository: https://github.com/hembabu78github/multiview_ecg
-- Archive: https://doi.org/10.5281/zenodo.23652627
-- Version: tag v1.0.0 and v1.0.1 point to the same commit.
+- Repository: https://github.com/hembabu78github/mv_ecg
+- Archive: https://doi.org/10.5281/zenodo.24150913
+- Version: release v1.0.0.
 - Licence: Apache 2.0 (see `LICENSE`).
 
 ## Layout

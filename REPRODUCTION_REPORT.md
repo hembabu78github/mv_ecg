@@ -25,4 +25,4 @@ Ten-fold rotation (`run_rotation.py`), benign retraining on 100 replicates (`run
 
 ## Notes
 - Raw PTB-XL / PTB-XL+ files are not copied here (public on PhysioNet). Place them in `data/` (`ptbxl_database.csv`, `scp_statements.csv`, `feature_description.csv`, `12sl_features.csv`, `ecgdeli_features.csv`, `unig_features.csv`).
-- `results_as_released_v1.0.0/` holds the files as shipped in tag v1.0.0 (same commit as v1.0.1) for comparison.
+- `results_as_released_v1.0.0/` holds the files as shipped in tag v1.0.0 for comparison.

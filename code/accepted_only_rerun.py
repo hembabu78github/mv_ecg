@@ -1,4 +1,4 @@
-"""Accepted-only monitor, recalibrated.  Run from multiview_ecg/code on a machine that has the PTB-XL+ data
+"""Accepted-only monitor, recalibrated.  Run from mv_ecg/code on a machine that has the PTB-XL+ data
 and has produced results/ext/scen_fold9.npz, scen_fold10.npz, scen_meta.pkl and results/models/*.pkl (run_ext.py).
 Run on the supplied PTB-XL/PTB-XL+ data: variant all23 reproduces the MR rows of results/ext/monitor_det.csv (n=200) exactly;
 run it first as a sanity check before the other variants.
